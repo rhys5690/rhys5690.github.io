@@ -1,0 +1,149 @@
+
+body {
+  background: url("../assets/planet-image.jpg");
+}
+
+.none {
+  display: none !important;
+}
+.central-area {
+  position: relative;
+}
+
+.central-area-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.contact {
+  text-align: center;
+  border: 4px solid white;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #3c3c3f;
+  color: white;
+
+}
+
+.beginning-area {
+  text-align: center;
+  color: white;
+  height: 92vh;
+}
+
+.my-butt {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 150px;
+  background-color: transparent !important;
+  border: solid 2px white;
+  border-radius: 15px;
+  margin-top: 4rem;
+}
+
+.my-butt:hover {
+  background-color: white !important;
+  color: black;
+}
+
+.my-butt-2 {
+  color: white;
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 150px;
+  background-color: transparent !important;
+  border: solid 2px white;
+  border-radius: 15px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.my-butt-2:hover {
+  background-color: rgba(40, 50, 62, 1.0) !important;
+  color: white;
+}
+
+.about-me {
+  color: white;
+  border: 4px solid white;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: rgba(40, 50, 62, 1.0);
+}
+
+.skills {
+  color: white;
+  border: 4px solid white;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: rgba(40, 50, 62, 1.0);
+}
+
+.projects {
+  color: white;
+  border: 4px solid white;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: rgba(40, 50, 62, 1.0);
+}
+
+.education {
+  border: 4px solid white;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #3c3c3f;
+  color: white;
+}
+
+.work-experience {
+  border: 4px solid white;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #3c3c3f;
+  color: white;
+}
+
+.strong-p {
+  font-weight: bold;
+}
+
+.a-button {
+  color: white;
+}
+
+@media screen and (max-width: 601px) {
+  * {
+    display: block;
+    margin: auto;
+  }
+
+  h4, h5, h6 {
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .pd {
+    text-align: center;
+  }
+  .strong-p {
+    text-align: center;
+  }
+
+  .central-area-inner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+  }
+
+  .my-image {
+    width: 100px;
+    height: 105px;
+  }
+}
