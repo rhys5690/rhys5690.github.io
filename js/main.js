@@ -7,7 +7,7 @@ $(document).ready(function() {
     var timerId = setTimeout(function() {
         $(".my-butt").removeClass("none");
         $(".my-butt").addClass("animated flipInY hvr-grow-rotate");
-    }, 19000);
+    }, 21000);
 
     $(function() {
         $(".element-test").typed({
