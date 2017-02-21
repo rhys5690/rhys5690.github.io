@@ -43,15 +43,24 @@
   left: 50%;
   transform: translate(-50%, 50%);
 }
+.contact-background {
+  background-color: #3c3c3f;
+  margin-top: -1.4rem;
+
+}
 .contact {
   text-align: center;
-  border: 4px solid white;
+  border: 4px solid #3c3c3f;
   margin: auto;
   margin-top: 1rem;
   border-radius: 15px;
   background-color: #3c3c3f;
-  color: white;
+  color: black;
 
+}
+
+.contact-text-area {
+  color: white;
 }
 
 .beginning-area {
