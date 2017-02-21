@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.skills-work-experience-background {
+  background-color: rgba(40, 50, 62, 1.0);
+  margin-top: -1.5rem;
+}
+
 .inside-projects {
   margin-left: 1.5rem;
   margin-right: 1.5rem
@@ -93,7 +98,7 @@
 
 .about-me {
   color: black;
-  border: 4px solid white;
+  border: 4px solid #81d4fa;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -106,12 +111,12 @@
 }
 
 .skills {
-  color: white;
-  border: 4px solid white;
+  color: black;
+  border: 4px solid #81d4fa;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
   border-radius: 15px;
-  background-color: rgba(40, 50, 62, 1.0);
+  background-color: white;
 }
 
 .projects {
@@ -138,16 +143,18 @@
 }
 
 .work-experience {
-  border: 4px solid white;
+  border: 4px solid #81d4fa;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   border-radius: 15px;
-  background-color: #3c3c3f;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .strong-p {
   font-weight: bold;
+  text-align: center;
 }
 
 .a-button {
