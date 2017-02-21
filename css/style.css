@@ -1,6 +1,9 @@
 
 
-
+body {
+  height: 100%;
+  margin: 0;
+}
 .none {
   display: none !important;
 }
@@ -41,13 +44,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -15%);
 }
 .contact-background {
   background-color: #3c3c3f;
   margin-top: -1.4rem;
 
 }
+
+.my-image-static {
+  margin-top: 3rem;
+}
+
 .contact {
   text-align: center;
   border: 4px solid #3c3c3f;
@@ -213,12 +221,16 @@ p {
   .central-area-inner {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 1%);
+    transform: translate(-50%, 0%);
   }
 
-  .my-image {
+  .my-image-static-pic {
     width: 100px;
     height: 105px;
+  }
+
+  .my-image-static {
+    margin-top: 2rem;
   }
   .inside-projects {
     margin-left: 1.5rem;
