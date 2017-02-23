@@ -3,6 +3,7 @@
 body {
   height: 100%;
   margin: 0;
+  background-color: #3c3c3f;
 }
 .none {
   display: none !important;
