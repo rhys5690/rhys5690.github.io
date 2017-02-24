@@ -5,6 +5,11 @@ body {
   margin: 0;
   background-color: #3c3c3f;
 }
+
+.underline {
+  text-decoration: underline;
+
+}
 .none {
   display: none !important;
 }
@@ -80,7 +85,7 @@ body {
 }
 
 .my-butt {
-  display: block;
+  display: inline-block;
   margin: auto;
   height: 50px;
   width: 150px;
