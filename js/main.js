@@ -7,14 +7,14 @@ $(document).ready(function() {
     var timerId = setTimeout(function() {
         $(".my-butt").removeClass("none");
         $(".my-butt").addClass("animated flipInY hvr-grow-rotate");
-    }, 21000);
+    }, 19000);
 
     $(function() {
         $(".element-test").typed({
             strings: [
-                "<h5> Hi, I'm Rhys </h5>", "<h5>And I have an unusual story to share with you...</h5>", "<h5>It's about a lawyer who left the legal profession to pursue his dream of becoming a front-end developer </h5>", "<h5>Click the button below to find out more.</h5>", "",
+                "<h5> Hi, I'm Rhys </h5>", "<h5>And I have an unusual story to share with you...</h5>", "<h5>It's about a lawyer who left the legal profession</h5>", "<h5>to become a front-end developer... </h5>", "<h5>Click the button below to find out more.</h5>", " ",
             ],
-            typeSpeed: 0
+            typeSpeed: 1,
         });
     });
 

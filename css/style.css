@@ -14,6 +14,11 @@ body {
   display: none !important;
 }
 
+
+.element-test {
+  display: inline-block;
+}
+
 .mini-heading {
   text-align: center;
   margin-top: 1rem;
@@ -127,6 +132,8 @@ body {
   margin-bottom: 2rem;
   border-radius: 15px;
   background-color: white;
+  padding: 20px;
+  width: 80%;
 }
 
 .about-me-background {
@@ -140,6 +147,8 @@ body {
   margin-top: 2rem;
   border-radius: 15px;
   background-color: white;
+  padding: 20px;
+  width: 80%;
 }
 
 .projects-background {
@@ -159,6 +168,8 @@ body {
   margin-bottom: 2rem;
   border-radius: 15px;
   background-color: #81d4fa;
+  padding: 20px;
+  width: 80%;
 }
 
 .education {
@@ -169,6 +180,8 @@ body {
   border-radius: 15px;
   background-color: #3c3c3f;
   color: white;
+  padding: 20px;
+  width: 80%;
 }
 
 .education-background {
@@ -183,6 +196,8 @@ body {
   border-radius: 15px;
   background-color: white;
   color: black;
+  padding: 20px;
+  width: 80%;
 }
 
 .strong-p {
@@ -252,7 +267,7 @@ p {
   }
 
   .project-image {
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 115px;
   }
 }
