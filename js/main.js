@@ -8,7 +8,7 @@ $(document).ready(function() {
     $(function() {
         $(".element-test").typed({
             strings: [
-                "<h5> Hi, I'm Rhys </h5>", "<h5>And I have an unusual story to share with you...</h5>", "<h5>It's about a lawyer who left the legal profession</h5>", "<h5>to become a front-end developer... </h5>", "<h5>Click the button below to find out more.</h5>", " ",
+                "<h5> Hi, I'm Rhys </h5>", "<h5>And I have an unusual story to share with you...</h5>", "<h5>It's about a law graduate who left the legal profession</h5>", "<h5>to become a front-end developer... </h5>", "<h5>Click the button below to find out more.</h5>", " ",
             ],
             typeSpeed: 1,
             callback: function() {
